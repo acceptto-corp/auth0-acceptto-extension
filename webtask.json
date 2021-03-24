@@ -6,7 +6,12 @@
   "description": "Test Extension for Acceptto Integration",
   "type": "application",
   "repository": "https://github.com/acceptto-corp/acceptto-auth0-extension",
-  "auth0": {},
+  "auth0": {
+    "createClient": true,
+    "onUninstallPath": "./extensions/on-uninstall",
+    "onUpdatePath": "./extensions/on-update",
+    "scopes": "read:connections read:resource_servers update:resource_servers delete:resource_servers read:clients delete:clients read:users read:rules create:rules update:rules_configs update:rules delete:rules"
+  },
   "keywords": [
     "auth0",
     "extension",
