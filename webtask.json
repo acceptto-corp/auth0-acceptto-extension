@@ -1,0 +1,9 @@
+{
+  "title": "Acceptto Auth0 Extension",
+  "name": "auth0-acceptto-extension",
+  "author": "Acceptto, Corp.",
+  "version": "0.0.1",
+  "description": "Test Extension for Acceptto Integration",
+  "type": "application",
+  "repository": "https://github.com/acceptto-corp/acceptto-auth0-extension"
+}
